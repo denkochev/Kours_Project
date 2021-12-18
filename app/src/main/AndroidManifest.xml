@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_cinema"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilmActivity"
+            android:label="@string/title_activity_film" >
+        </activity>
+        <activity
+            android:name=".MovieDetail"
+            android:label="@string/title_activity_movie_detail" >
+        </activity>
+        <activity
+            android:name=".SeansActivity"
+            android:label="@string/title_activity_seans" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".ActorsActivity"
+            android:label="@string/title_activity_actors" >
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="@string/title_activity_category" >
+        </activity>
+        <activity
+            android:name=".DirectorsActivity"
+            android:label="@string/title_activity_directors" >
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".FinishActivity"
+            android:label="@string/title_activity_finish" >
+        </activity>
+        <activity
+            android:name=".CinemasActivity"
+            android:label="@string/title_activity_cinemas" >
+        </activity>
+        <activity
+            android:name=".DetailCinemaActivity"
+            android:label="@string/title_activity_detail_cinema" >
+        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name=".BrondetailActivity"
+            android:label="@string/title_activity_brondetail" >
+        </activity>
+    </application>
+
+</manifest>

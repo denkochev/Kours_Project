@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:orientation="vertical"
+  	 android:layout_width="match_parent"
+   	 android:layout_height="match_parent"
+  	 android:padding="14dp" 
+     tools:context="com.example.my_cinema.SeansActivity" >
+  <TextView 
+             android:id="@+id/cinema"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+   <TextView 
+             android:id="@+id/ADRES"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+  <TextView 
+             android:id="@+id/fil"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+<TextView 
+             android:id="@+id/datec"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+<TextView 
+             android:id="@+id/times"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+  <TextView 
+             android:text=""
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            />
+  <ImageView
+      android:id="@+id/misce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/misce"
+         android:onClick="misce"
+        
+         android:layout_gravity="center"
+        />
+   <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть ФІО"/>
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть номер телефону"/>
+     <EditText
+        android:id="@+id/primm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Оберіть місце"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+ 
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Забронювати"
+            android:onClick="save"/>
+   
+       
+        </LinearLayout>
+        <LinearLayout 
+              	 android:layout_width="match_parent"
+   				 android:layout_height="match_parent"
+   	 >
+            
+      
+        <TextView 
+             android:id="@+id/fullo"
+             android:layout_width="match_parent"
+       		 android:layout_height="wrap_content"
+            
+            />
+    </LinearLayout>
+</LinearLayout>

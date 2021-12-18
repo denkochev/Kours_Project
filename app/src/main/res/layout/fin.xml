@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:orientation="vertical"
+  	 android:layout_width="match_parent"
+   	 android:layout_height="match_parent"
+  	 android:padding="16dp" 
+    tools:context="com.example.my_cinema.FinishActivity" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дякуємо, що скористались нашим додатком" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Для уточнення всіх деталів вам передзвонять" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+  <Button
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Закрити додаток"
+           
+           />
+</LinearLayout>

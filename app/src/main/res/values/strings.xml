@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My_cinema</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_film">FilmActivity</string>
+    <string name="title_activity_movie_detail">MovieDetail</string>
+    <string name="title_activity_seans">Сеанс</string>
+    <string name="title_activity_actors">Актори</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_directors">DirectorsActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_finish">FinishActivity</string>
+    <string name="title_activity_cinemas">Кінотеатри</string>
+    <string name="title_activity_detail_cinema">DetailCinemaActivity</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_brondetail">Бронирование</string>
+
+</resources>

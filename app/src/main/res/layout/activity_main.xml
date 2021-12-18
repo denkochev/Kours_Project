@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+  tools:context="com.example.my_cinema.MainActivity" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        
+        />
+    
+    <Button
+        android:id="@+id/sklad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Афіша" />
+    
+    <Button
+        android:id="@+id/borecode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пошук по актору" />
+        
+     <Button
+         android:id="@+id/nameless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Жанри" />
+     <Button
+         android:id="@+id/directors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Режисери" />
+      <Button
+         android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Новинки та Премєри" />
+       <Button
+        android:id="@+id/cin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Кінотеатри" />
+                
+     <Button
+         android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вихід" />
+                   
+     
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitEnd"
+        android:layout_height="match_parent"
+      
+        />
+ <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="">
+    </TextView>
+    
+    
+</LinearLayout>
